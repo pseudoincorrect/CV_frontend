@@ -1,0 +1,32 @@
+{
+    "projects": 
+    [
+        {
+            "title": "my project title 1",
+            "mainPicture": "mainPicture.jpg",
+            "summary": "my summary 1",
+            "details": "my details 1",
+            "pictures": [
+                "picture1.jpg",
+                "picture2.jpg"
+            ],
+            "tags": ["tag1", "tag2"],
+            "location": "my location",
+            "date": "my date"
+        },
+        {
+            "title": "my project title 2",
+            "mainPicture": "mainPicture.jpg",
+            "summary": "my summary 2",
+            "details": "my details 2",
+            "pictures": [
+                "picture1.jpg",
+                "picture2.jpg"
+            ],
+            "tags": ["tag1", "tag2"],
+            "location": "my location",
+            "date": "my date"
+        }
+    ]
+
+}

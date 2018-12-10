@@ -35,7 +35,7 @@
     .description {
       text-align: justify;
       color: nb-theme(color-fg-text);
-      font-weight: nb-theme(font-weight-light);
+      font-weight: nb-theme(font-weight-normal);
 
       overflow: hidden;
       text-overflow: ellipsis;
@@ -61,5 +61,10 @@
         font-size: 1.75rem;
       }
     }
+  }
+
+  .img-accord {
+      border-radius: 10px;
+      max-width:100%;
   }
 }

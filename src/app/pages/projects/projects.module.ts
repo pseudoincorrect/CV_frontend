@@ -4,18 +4,20 @@ import { ProjectsComponent } from './projects.component';
 import { ProjectCardsComponent } from './project-cards/project-cards.component';
 import { ProjectService } from './project-service/project.service';
 import { ThemeModule } from '../../@theme/theme.module';
+import { NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
     ProjectsComponent,
-    ProjectCardsComponent
+    ProjectCardsComponent,
   ],
   imports: [
     ThemeModule,
-    CommonModule
+    CommonModule,
+    NgbModule,
   ],
   providers: [
     ProjectService,
-  ]
+  ],
 })
 export class ProjectsModule { }

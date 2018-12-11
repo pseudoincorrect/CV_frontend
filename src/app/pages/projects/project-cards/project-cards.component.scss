@@ -19,12 +19,14 @@
 
   .details {
     padding: 1.25rem 1.25rem 0;
+    text-align: justify;
+    text-justify: inter-word;
 
     .title {
       font-family: nb-theme(font-secondary);
       font-weight: nb-theme(font-weight-bold);
       color: nb-theme(color-fg-heading);
-      font-size: 1.5rem;
+      font-size: 2rem;
       margin-bottom: 1rem;
 
       @include nb-for-theme(cosmic) {
@@ -39,7 +41,7 @@
 
       overflow: hidden;
       text-overflow: ellipsis;
-      max-height: calc(1rem * 8 * #{nb-theme(line-height)});
+      // max-height: calc(1rem * 8 * #{nb-theme(line-height)});
     }
   }
 
@@ -66,5 +68,11 @@
   .img-accord {
       border-radius: 10px;
       max-width:100%;
+      margin: auto;
+      
+  }
+
+  .accordion-header {
+    color: rgb(130, 255, 186);
   }
 }

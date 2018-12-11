@@ -14,7 +14,7 @@ export class Project {
 }
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class ProjectService {
 
@@ -22,6 +22,6 @@ export class ProjectService {
 
   load(): Observable<Project[]> {
     return this.http
-      .get<Project[]>('assets/projects/projects-data.json');
+      .get<Project[]>('assets/projects_assets/projects-data.json');
   }
 }

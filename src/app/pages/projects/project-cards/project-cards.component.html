@@ -3,57 +3,34 @@
     <div *ngFor="let project of projects.projects" class="col-md-12 col-lg-6 col-xxxl-6">
       <nb-card>
         <nb-card-body>
-          <img class="card-img-top" src="assets/images/kitten-cosmic.png" alt="Card image cap">
+          <img class="card-img-top" src="{{project.mainPicture}}" alt="Card image cap">
           <div class="details">
             <div class="title">
-              React Native UI Kitten
+              <div [innerHTML]="project.title"></div>
             </div>
             <div class="description">
-              React Native UI Kitten is a framework that contains a set of commonly used UI components styled in a
-              similar
-              way. The most awesome thing: you can change themes on the fly by just passing a different set of
-              variables.
-              100% native. Give our kitten a try!
+              <div [innerHTML]="project.summary"></div>
             </div>
-              <div class="accordions-container row">
-                <div class="accordion-container">
-                  <nb-accordion>
-                    <nb-accordion-item>
-                      <nb-accordion-item-header>
-                        <b>More Details...</b>
-                      </nb-accordion-item-header>
-                      <nb-accordion-item-body>
-                        A nebula is an interstellar cloud of dust, hydrogen, helium and other ionized gases.
-                        Originally, nebula was a name for any diffuse astronomical object,
-                        including galaxies beyond the Milky Way. <br> <br>
-                          <ngb-carousel >
-                            <ng-template ngbSlide>
-                              <img class="img-accord" src="assets/images/camera1.jpg" alt="Random first slide">
-                              <div class="carousel-caption">
-                                <h3>First slide label</h3>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                              </div>
-                            </ng-template>
-                            <ng-template ngbSlide>
-                              <img class="img-accord" src="assets/images/camera2.jpg" alt="Random second slide">
-                              <div class="carousel-caption">
-                                <h3>Second slide label</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                              </div>
-                            </ng-template>
-                            <ng-template ngbSlide>
-                              <img class="img-accord" src="assets/images/camera3.jpg" alt="Random third slide">
-                              <div class="carousel-caption">
-                                <h3>Third slide label</h3>
-                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                              </div>
-                            </ng-template>
-                          </ngb-carousel>
-                      </nb-accordion-item-body>
-                    </nb-accordion-item>
-                  </nb-accordion>
-                </div>
+            <div class="accordions-container row">
+              <div class="accordion-container">
+                <nb-accordion>
+                  <nb-accordion-item>
+                    <nb-accordion-item-header class="accordion-header">
+                      <b>More Details...</b>
+                    </nb-accordion-item-header>
+                    <nb-accordion-item-body>
+                      <div [innerHTML]="project.details"></div>
+                      <br> <br>
+                      <ngb-carousel>
+                        <ng-template *ngFor="let pictPath of project.pictures; let i = index" ngbSlide style="align-items:center;">
+                          <img class="img-accord" src="{{pictPath}}" alt="image {{i}}">
+                        </ng-template>
+                      </ngb-carousel>
+                    </nb-accordion-item-body>
+                  </nb-accordion-item>
+                </nb-accordion>
               </div>
+            </div>
           </div>
         </nb-card-body>
 

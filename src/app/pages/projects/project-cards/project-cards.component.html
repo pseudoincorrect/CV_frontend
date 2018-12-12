@@ -3,7 +3,7 @@
     <div *ngFor="let project of projects.projects" class="col-md-12 col-lg-6 col-xxxl-6">
       <nb-card>
         <nb-card-body>
-          <img class="card-img-top" src="{{project.mainPicture}}" alt="Card image cap">
+          <img class="card-img-top mainPict" src="{{project.mainPicture}}" alt="Card image cap">
           <div class="details">
             <div class="title">
               <div [innerHTML]="project.title"></div>
@@ -21,9 +21,11 @@
                     <nb-accordion-item-body>
                       <div [innerHTML]="project.details"></div>
                       <br> <br>
-                      <ngb-carousel>
-                        <ng-template *ngFor="let pictPath of project.pictures; let i = index" ngbSlide style="align-items:center;">
-                          <img class="img-accord" src="{{pictPath}}" alt="image {{i}}">
+                      <ngb-carousel style="outline: none">
+                        <ng-template *ngFor="let pictPath of project.pictures; let i = index" ngbSlide>
+                          <div class="text-center ng-template-fixed">
+                              <img class="img-accord" src="{{pictPath}}" alt="image {{i}}">
+                          </div>
                         </ng-template>
                       </ngb-carousel>
                     </nb-accordion-item-body>

@@ -41,7 +41,6 @@
 
       overflow: hidden;
       text-overflow: ellipsis;
-      // max-height: calc(1rem * 8 * #{nb-theme(line-height)});
     }
   }
 
@@ -65,11 +64,23 @@
     }
   }
 
+  .mainPict {
+    max-width: 100%;
+  }
+
   .img-accord {
-      border-radius: 10px;
-      max-width:100%;
-      margin: auto;
-      
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .ng-template-fixed {
+    width: auto;
+    height: 500px;
+    max-height: 500px;
+    object-fit: cover;
+    overflow: hidden;
+
   }
 
   .accordion-header {

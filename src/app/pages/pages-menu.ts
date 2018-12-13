@@ -18,7 +18,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
     link: '/pages/projects'
   },
   {
-    title: `Where I've been`,
+    title: `My Path`,
     icon: 'nb-location',
     link: '/pages/cv'
   },

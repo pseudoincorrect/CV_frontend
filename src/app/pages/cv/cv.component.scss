@@ -82,7 +82,7 @@
     width: 3px;
     background-color: #eeeeee;
     left: 50%;
-    margin-left: 7px;
+    margin-left: -1.5px;
   }
 
   .timeline>li {
@@ -222,7 +222,7 @@
   @media (max-width: 767px) {
     ul.timeline:before {
       left: 40px;
-      margin-left: 16px;
+      margin-left: 0px;
     }
 
     ul.timeline>li>.timeline-panel {

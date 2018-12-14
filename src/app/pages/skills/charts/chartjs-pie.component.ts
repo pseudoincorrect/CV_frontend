@@ -1,5 +1,12 @@
-import { Component, OnDestroy } from '@angular/core';
-import { NbThemeService } from '@nebular/theme';
+import {
+  Component,
+  OnDestroy,
+} from '@angular/core';
+import {
+  NbThemeService,
+} from '@nebular/theme';
+// import { ChartModule } from 'angular2-chartjs';
+import 'chartjs-plugin-labels';
 
 @Component({
   selector: 'ngx-chartjs-pie',
@@ -19,29 +26,34 @@ export class ChartjsPieComponent implements OnDestroy {
       const chartjs: any = config.variables.chartjs;
 
       this.data = {
-        labels: ['Download Sales', 'In-Store Sales', 'Mail Sales'],
+        labels: ['Software', 'Embedded\n\rSystems', 'Hardware', 'Design'],
         datasets: [{
-          data: [300, 500, 100],
-          backgroundColor: [colors.primaryLight, colors.infoLight, colors.successLight],
+          data: [100, 130, 100, 80],
+          backgroundColor: [colors.primaryLight, colors.infoLight, colors.successLight, colors.warning],
         }],
       };
 
       this.options = {
+        plugins: {
+          labels: {
+            render: 'label',
+            fontSize: 15,
+            fontColor: '#fff',
+            fontStyle: 'bold',
+          },
+        },
         maintainAspectRatio: false,
         responsive: true,
         scales: {
-          xAxes: [
-            {
-              display: false,
-            },
-          ],
-          yAxes: [
-            {
-              display: false,
-            },
-          ],
+          xAxes: [{
+            display: false,
+          } ],
+          yAxes: [{
+            display: false,
+          } ],
         },
         legend: {
+          display: false,
           labels: {
             fontColor: chartjs.textColor,
           },

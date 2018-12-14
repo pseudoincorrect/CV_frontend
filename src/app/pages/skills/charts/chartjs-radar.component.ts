@@ -19,17 +19,24 @@ export class ChartjsRadarComponent implements OnDestroy {
       const chartjs: any = config.variables.chartjs;
 
       this.data = {
-        labels: ['Eating', 'Drinking', 'Sleeping', 'Designing', 'Coding', 'Cycling', 'Running'],
+        labels: [
+            'JavaScript / Typescript ',
+            'Python',
+            'C',
+            'C++',
+            'ASM',
+            'Matlab',
+            'Verilog',
+            'VHDL',
+            'Bash',
+            'PowerShell',
+            'HTML, CSS',
+          ],
         datasets: [{
-          data: [65, 59, 90, 81, 56, 55, 40],
-          label: 'Series A',
+          data: [90, 90, 90, 75, 65, 65, 90, 70, 70, 70, 80],
+          label: 'Skills',
           borderColor: colors.danger,
           backgroundColor: NbColorHelper.hexToRgbA(colors.dangerLight, 0.5),
-        }, {
-          data: [28, 48, 40, 19, 96, 27, 100],
-          label: 'Series B',
-          borderColor: colors.warning,
-          backgroundColor: NbColorHelper.hexToRgbA(colors.warningLight, 0.5),
         }],
       };
 
@@ -38,6 +45,7 @@ export class ChartjsRadarComponent implements OnDestroy {
         maintainAspectRatio: false,
         scaleFontColor: 'white',
         legend: {
+          display: false,
           labels: {
             fontColor: chartjs.textColor,
           },
@@ -47,6 +55,7 @@ export class ChartjsRadarComponent implements OnDestroy {
             fontColor: colors.fgText,
             backdropColor: colors.bg,
             stepSize: 20,
+            min: 0,
           },
           pointLabels: {
             fontSize: 14,

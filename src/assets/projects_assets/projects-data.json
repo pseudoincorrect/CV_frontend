@@ -13,7 +13,7 @@
                 "assets/projects_assets/mesh/pcb.png",
                 "assets/projects_assets/mesh/pcb_dev.png"
             ],
-            "tags": ["Open Thread Mesh", "Full-Stack Application", "C programming", "JavaScript", "PCB design", "Deployment"],
+            "tags": "Open Thread Mesh, Full-Stack Application, C programming, JavaScript, PCB design, Deployment",
             "location": "HBKU, Doha, Qatar",
             "date": "2018"
         },
@@ -29,7 +29,7 @@
                 "assets/projects_assets/bluetoothHealth/wearable.jpg",
                 "assets/projects_assets/bluetoothHealth/cad.png"
             ],
-            "tags": ["C programming", "Python GUI", "multithreading", "smart clothes", "PCB design", "Bluetooth"],
+            "tags": "C programming, Python GUI, multithreading, smart clothes, PCB design, Bluetooth",
             "location": "HBKU, Doha, Qatar",
             "date": "2017"
         },
@@ -42,7 +42,7 @@
                 "assets/projects_assets/lab/lab2.jpg",
                 "assets/projects_assets/lab/lab1.jpg"
             ],
-            "tags": ["Laboratory", "Management", "Electronic", "Safety"],
+            "tags": "Laboratory, Management, Electronic, Safety",
             "location": "HBKU, Doha, Qatar",
             "date": "2016 to now"
         },
@@ -57,7 +57,7 @@
                 "assets/projects_assets/ledPump/se.png"
 
             ],
-            "tags": ["Rapid Prototyping", "Python", "TTL logic", "Bluetooth", "C programming" ],
+            "tags": "Rapid Prototyping, Python, TTL logic, Bluetooth, C programming" ,
             "location": "HBKU, Doha, Qatar",
             "date": "2016 to now"
         },
@@ -71,7 +71,7 @@
                 "assets/projects_assets/pocsd/arm.jpg",
                 "assets/projects_assets/pocsd/microelectronics.jpg"
             ],
-            "tags": ["FPGA, Verliog", "Block Diagrams", "Teaching", "Digital Design", "Computer Architecture"],
+            "tags": "FPGA, Verliog, Block Diagrams, Teaching, Digital Design, Computer Architecture",
             "location": "HBKU, Doha, Qatar",
             "date": "2016 to now"
         },
@@ -84,7 +84,7 @@
                 "assets/projects_assets/fpgaWifi/diagram.png",
                 "assets/projects_assets/fpgaWifi/fpgaWifi.jpg"
             ],
-            "tags": ["FPGA", "Verilog", "WiFi", "C programming", "Socket Programming", "TCP"],
+            "tags": "FPGA, Verilog, WiFi, C programming, Socket Programming, TCP",
             "location": "HBKU, Doha, Qatar",
             "date": "2016"
         },
@@ -98,7 +98,7 @@
                 "assets/projects_assets/fractal/mesh.png",
                 "assets/projects_assets/fractal/ddf.png"
             ],
-            "tags": ["FPGA", "Hardware Acceleration", "Highly Parallelized Systems", "Computer Architecture"],
+            "tags": "FPGA, Hardware Acceleration, Highly Parallelized Systems, Computer Architecture",
             "location": "HBKU, Doha, Qatar",
             "date": "2016"
         },
@@ -112,7 +112,7 @@
                 "assets/projects_assets/nerd/system.png",
                 "assets/projects_assets/nerd/rat.png"
             ],
-            "tags": ["OpenSource", "Custom Wireless", "STM32", "nrf24", "PCB", "C programming"],
+            "tags": "OpenSource, Custom Wireless, STM32, nrf24, PCB, C programming",
             "location": "Loria research institute, Nancy, France",
             "date": "2015"
         },
@@ -125,7 +125,7 @@
                 "assets/projects_assets/moth/prototype.jpg",
                 "assets/projects_assets/moth/pcb.jpg"
             ],
-            "tags": ["Mbed", "Bluetooth", "C/C++ programming", "prototyping", "GUI design"],
+            "tags": "Mbed, Bluetooth, C/C++ programming, prototyping, GUI design",
             "location": "HBKU, Doha, Qatar",
             "date": "2014"
         },
@@ -139,7 +139,7 @@
                 "assets/projects_assets/heartRate/boardProgrammer.png",
                 "assets/projects_assets/heartRate/boardOnly.png"
             ],
-            "tags": ["NXP", "sensor", "UART", "Custom PCB", "C programming"],
+            "tags": "NXP, sensor, UART, Custom PCB, C programming",
             "location": "Lulea University of Technology, Lulea, Sweden ",
             "date": "2013"
         },
@@ -152,7 +152,7 @@
                 "assets/projects_assets/varistart/gear.png",
                 "assets/projects_assets/varistart/system.png"
             ],
-            "tags": ["Catia", "Arduino", "Analytical Mechanics", "Machining"],
+            "tags": "Catia, Arduino, Analytical Mechanics, Machining",
             "location": "ESSTIN, Nancy, France",
             "date": "2012"
         },
@@ -165,7 +165,7 @@
                 "assets/projects_assets/flowAnalysis/autoCad.png",
                 "assets/projects_assets/flowAnalysis/heavyDuty.png"
             ],
-            "tags": ["Work Flow Analysis", "AutoCAD", "Financial analysis"],
+            "tags": "Work Flow Analysis, AutoCAD, Financial analysis",
             "location": "ESSTIN, Nancy, France",
             "date": "2011"
         }

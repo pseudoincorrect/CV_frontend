@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CvComponent } from './cv.component';
-// import { NbThemeModule } from '@nebular/theme';
 import { ThemeModule } from '../../@theme/theme.module';
 
 @NgModule({

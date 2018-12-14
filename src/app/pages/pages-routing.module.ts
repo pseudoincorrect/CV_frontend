@@ -20,80 +20,80 @@ const routes: Routes = [{
   {
     path: 'skills',
     component: SkillsComponent,
-  }, 
+  },
   {
     path: 'cv',
     component: CvComponent,
-  }, 
+  },
   {
     path: 'projects',
     component: ProjectsComponent,
-  }, 
+  },
   {
     path: 'leisure',
     component: LeisureComponent,
-  }, 
+  },
   {
     path: 'contacts',
     component: ContactsComponent,
-  },  
+  },
   {
     path: 'home',
     component: HomeComponent,
-  }, 
+  },
   {
     path: 'dashboard',
     component: ECommerceComponent,
-  }, 
+  },
   {
     path: 'iot-dashboard',
     component: DashboardComponent,
-  }, 
+  },
   {
     path: 'ui-features',
     loadChildren: './ui-features/ui-features.module#UiFeaturesModule',
-  }, 
+  },
   {
     path: 'modal-overlays',
     loadChildren: './modal-overlays/modal-overlays.module#ModalOverlaysModule',
-  }, 
+  },
   {
     path: 'extra-components',
     loadChildren: './extra-components/extra-components.module#ExtraComponentsModule',
-  }, 
+  },
   {
     path: 'bootstrap',
     loadChildren: './bootstrap/bootstrap.module#BootstrapModule',
-  }, 
+  },
   {
     path: 'maps',
     loadChildren: './maps/maps.module#MapsModule',
-  }, 
+  },
   {
     path: 'charts',
     loadChildren: './charts/charts.module#ChartsModule',
-  }, 
+  },
   {
     path: 'editors',
     loadChildren: './editors/editors.module#EditorsModule',
-  }, 
+  },
   {
     path: 'forms',
     loadChildren: './forms/forms.module#FormsModule',
-  }, 
+  },
   {
     path: 'tables',
     loadChildren: './tables/tables.module#TablesModule',
-  }, 
+  },
   {
     path: 'miscellaneous',
     loadChildren: './miscellaneous/miscellaneous.module#MiscellaneousModule',
-  }, 
+  },
   {
     path: '',
     redirectTo: 'home',
     pathMatch: 'full',
-  }, 
+  },
   {
     path: '**',
     component: NotFoundComponent,

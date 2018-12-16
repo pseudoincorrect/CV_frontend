@@ -28,6 +28,7 @@
       color: nb-theme(color-fg-heading);
       font-size: 2rem;
       margin-bottom: 1rem;
+      text-align: left;
 
       @include nb-for-theme(cosmic) {
         font-weight: nb-theme(font-weight-bolder);
@@ -66,6 +67,8 @@
 
   .mainPict {
     max-width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
   }
 
   .img-accord {

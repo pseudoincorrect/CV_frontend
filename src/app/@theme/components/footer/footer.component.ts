@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
       </span>
       <span>
         maximeclemlent6
-        <img src="assets/app_icons/at-sign.svg" alt="at" style="width:25px;height:25px;">
+        <img src="assets/app_icons/at-sign.png" alt="at" style="width:25px;height:25px;">
         gmail.com
       </span>
   `,

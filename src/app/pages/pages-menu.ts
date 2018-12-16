@@ -10,26 +10,26 @@ export const MENU_ITEMS: NbMenuItem[] = [
   {
     title: 'Skills & Tools',
     icon: 'nb-star',
-    link: '/pages/skills'
+    link: '/pages/skills',
   },
   {
     title: 'Projects',
     icon: 'nb-list',
-    link: '/pages/projects'
+    link: '/pages/projects',
   },
   {
     title: `My Path`,
     icon: 'nb-location',
-    link: '/pages/cv'
+    link: '/pages/cv',
   },
   {
-    title: 'Story',
+    title: 'Out of work',
     icon: 'nb-coffee-maker',
-    link: '/pages/leisure'
+    link: '/pages/leisure',
   },
   {
     title: 'Contacts',
     icon: 'nb-email',
-    link: '/pages/contacts'
-  }
+    link: '/pages/contacts',
+  },
 ];
